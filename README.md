@@ -9,5 +9,6 @@ required libraries:
   - re
   - datetime
   - string
+  
 (These functions are already downloaded with python or you can use pip install to install them)
-
+you also gonna need a .txt file that called tasks in the same directory that has the front-end and the back-end files
