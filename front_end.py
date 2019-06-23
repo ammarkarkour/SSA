@@ -34,7 +34,7 @@ class mainScreen(object):
         self.update.config(font=font2)
         self.update.grid(row = 4 , column=0, pady=5)
         
-
+        
         self.tasksList = Listbox(self.tasksCanvas,selectmode=ACTIVE,width=32,height=27)
         self.tasksList.place(x = 0 , y=0)
         self.yScroll = Scrollbar(self.tasksList, orient=VERTICAL)
