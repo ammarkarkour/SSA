@@ -119,7 +119,6 @@ def update_list():
     pass
 
 
-
 #returns a list of the tasks
 def get_tasks():
     pass
