@@ -103,7 +103,7 @@ class mainScreen(object):
         self.coursegrade_Label.place(x = 10 , y = 260)
 
         self.coursegrade_Entry = Entry(self.addCanvas, width = 50 , bg = "white")
-        self.coursegrade_Entry.insert(0,"eg: 95 percent or 95")
+        self.coursegrade_Entry.insert(0,"eg: ninty five percent or 95")
         self.coursegrade_Entry.place(x = 10 , y = 300)
 
 
@@ -112,7 +112,7 @@ class mainScreen(object):
         self.taskgrade_Label.place(x = 10 , y = 340)
 
         self.taskgrade_Entry = Entry(self.addCanvas, width = 50 , bg = "white")
-        self.taskgrade_Entry.insert(0, "eg: 3 percent or 3")
+        self.taskgrade_Entry.insert(0, "eg: three percent or 3")
         self.taskgrade_Entry.place(x = 10 , y = 400)
 
 
