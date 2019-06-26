@@ -304,8 +304,13 @@ def get_grade(text):
             return float(text)
 
         except:
-            return "can you  enter the number in a different way"
 
+            try:
+
+                return float((text.split(" "))[0])
+
+            except:
+                return "can you  enter the number in a different way"
 
 
 #get the name of the task
