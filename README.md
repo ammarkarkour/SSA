@@ -1,5 +1,5 @@
 # SSA
-Smart student assistant that manages your tasks and protrize it in order to maximize the profit and to minimize the lose
+Smart student assistant that manages your tasks and order them in order to maximize the profit and to minimize the loss.
 This APP was built using python 3
 required libraries:
   - Tkinter
